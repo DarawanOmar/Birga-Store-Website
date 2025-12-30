@@ -6,7 +6,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: `${baseUrl}`,
+      url: `${baseUrl}/en`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/ar`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/ckb`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 1,

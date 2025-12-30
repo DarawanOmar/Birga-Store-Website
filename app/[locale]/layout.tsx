@@ -22,7 +22,11 @@ export default async function RootLayout({
 }>) {
   const { locale } = await params;
   return (
-    <html dir={locale === "en" ? "ltr" : "rtl"} suppressHydrationWarning>
+    <html
+      dir={locale === "en" ? "ltr" : "rtl"}
+      lang={locale === "ckb" ? "ku" : locale}
+      suppressHydrationWarning
+    >
       <head>
         <meta
           name="google-site-verification"
