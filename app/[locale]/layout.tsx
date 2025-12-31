@@ -99,6 +99,14 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    canonical: "https://birgastoresystem.vercel.app",
+    languages: {
+      en: "https://birgastoresystem.vercel.app/en",
+      ar: "https://birgastoresystem.vercel.app/ar",
+      ku: "https://birgastoresystem.vercel.app/ckb",
+    },
+  },
 };
 
 export const viewport: Viewport = {
