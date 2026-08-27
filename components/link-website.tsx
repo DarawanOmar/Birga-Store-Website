@@ -9,7 +9,7 @@ async function LinkWebsite() {
     <div className="flex flex-col justify-center items-center relative ">
       <p className=" mb-4">{t("view_store")}</p>
       <Link
-        href={"https://birgastore.vercel.app/ckb/store"}
+        href={"https://www.birgastore.rosselgroup.co/store"}
         className={buttonVariants({
           variant: "default",
         })}
